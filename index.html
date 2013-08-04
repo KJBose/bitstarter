@@ -190,64 +190,75 @@
        </div>
       </div>
 
-       <div class="row navigation">
-         <div class="span2 logo">
-           Logo
-         </div>
-         <div class="span6 blank">
-           Blank
-         </div>
-         <div class="span4 about">
-           About
-         </div>
+      <!-- Beyond this part the marketing copy begins. -->
+      <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
+      <!--http://twitter.github.io/bootstrap/basecss.html#images -->
+      <!-- http://placehold.it -->
+      <div class="row-fluid section1">
+       <div class="span5 offset1 asset">
+        <img class="img-polaroid" src="http://placehols.it/480x300">
        </div>
-       <div class="row heading">
-        <div class="span12">
-          <h1>Bitstarter Title</h1>
-        </div>
-      </div> 
-     <div class="row subheading">
-        <div class="span12">
-          <p class="lead">This is my first bitstarter project.</p>
-        </div>
+       <div class="span5 copy">
+        <p> Will enter the description of this Product </p>
+       </div>
       </div>
-      <div class="row pitch">
-        <div class="span6 video">
-          Video
+
+      <div class="row-fluid section2">
+       <div class="span5 offset1 copy copy-right">
+        <p> Will enter the description of this Product </p>
+       </div>
+      <div class="span5 asset">
+        <img class="img-polaroid" src="http://placehold.it/480x300">
+      </div>
+     </div>
+
+     <!-- For the FAQ, alittle bit of JS is being used, using the accordation. -->
+     <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
+     <!-- http://twitter.github.io/bootstrap/javascript.html#collapse -->
+     <div class="row-fluid faq">
+         <div class="span10 offset1">
+           <h3>FAQ</h3>
+           <div class="accordion" id="accordion2">
+             <div class="accordion-group">
+              <div class="accordion-group">
+                <a class="ordion-toggle" data-toggle="collapse"
+                   data-parent="#accordion2" href="#collapseOne">
+                  What does FAQ stand for?
+                </a>
+              </div>
+             <div id="collapseOne" class="accordion-body collapse">
+               <div class="accordion-inner">
+                 Freqently Asked Question.
+               </div>
+             </div>
+            </div>
+            <div class="accordion-group">
+              <div class="accordion-heading">
+               <a class="accordion-toggle" data-toggle="collapse"
+                  data-parent="#accordion2" href="#collapseTwo">
+                 What's a Frequently Asked Question?
+               </a>
+              </div>
+              <div id="collapseTwo" class="accordion-body collapse">
+               <div class="accordion-inner">
+                 A question which is commonly asked by users.
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+
         </div>
-        <div class="span6">
-          <div class="thermometer">
-            Thermometer
+
+        <!-- Not crucial, but we put this under a CC By-SA 3.0 license. -->
+        <!-- http://creativecommons.org/licences/ -->
+        <div class="row-fluid footer">
+         <div class="span12">
+          <p>This work is licensed under the <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC By-SA 3.0</a>,
+           without all the cruft that would otherwise be put at the bottom of the page.</p>
           </div>
-          <div class="order">
-            Order
-          </div>
-          <div class="social">
-            Social
-          </div>
+         </div>
         </div>
-      </div>
-      <div class="row section1">
-        <div class="span12">
-          Marketing Section 1 to change
-        </div>
-      </div>
-      <div class="row section2">
-        <div class="span12">
-          Marketing Section 2 to change
-        </div>
-      </div>
-      <div class="row faq">
-        <div class="span12">
-          FAQ
-        </div>
-      </div>
-      <div class="row footer">
-        <div class="span12">
-          Footer
-        </div>
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
 
